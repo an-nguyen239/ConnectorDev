@@ -20,7 +20,7 @@ const ProfileSchema = new Schema({
 	},
 	location: {
 		type: String
-	}
+	},
 	status: {
 		type: String,
 		required: true
@@ -47,7 +47,7 @@ const ProfileSchema = new Schema({
 			},
 			location: {
 				type: String,
-			}
+			},
 			from: {
 				type: Date,
 				required: true
@@ -77,7 +77,7 @@ const ProfileSchema = new Schema({
 			fieldofstudy: {
 				type: String,
 				required: true
-			}
+			},
 			from: {
 				type: Date,
 				required: true
