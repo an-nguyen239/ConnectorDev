@@ -9,9 +9,9 @@ const PostSchema = new Schema({
 	},
 	text: {
 		type: String,
-		required: true
-	},
-	name: {
+		required: true},
+
+		name: {
 		type: String
 	},
 	avatar: {
