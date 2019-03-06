@@ -29,7 +29,7 @@ class Register extends Component {
 			password2: this.state.password2
 		}
 
-		console.log();
+		console.log(newUser);
 	}
 
   render() {
